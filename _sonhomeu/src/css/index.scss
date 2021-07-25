@@ -1,0 +1,426 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+#topHeader{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    background: $main;
+    h5{
+        float: left;
+        color: $white;
+        font-size: 16px;
+        margin-top: 3px;
+        font-family: "RobotoCondensed";
+        i{
+            float: left;
+            font-size: 18px;
+            margin-top: 2px;
+        }
+        span{
+            float: left;
+            margin-left: 5px;
+        }
+        &:last-child{
+            margin-left: 10px;
+            padding-left: 10px;
+            border-left: 1px solid $grey_light;
+            i{
+                margin-top: 1px;
+            }
+        }
+    }
+    a{
+        color: $white;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+}
+header{
+    float: left;
+    width: 100%;
+    font-family: "RobotoCondensed";
+    box-shadow: 10px 10px 10px rgba($color: #000000, $alpha: 0.5);
+    .bg-light{
+        background-color: $white !important;
+        .navbar-collapse{
+            padding-left: 20px;
+        }
+        button.donate{
+            float: left;
+            border: none;
+            color: $white;
+            font-size: 18px;
+            padding: 7px 25px;
+            border-radius: 25px;
+            background: $alternative;
+        }
+    }
+}
+#slideBackground {
+    float: left;
+    width: 100%;
+    #mainSlide{
+        float: left;
+        width: 100%;
+        .carousel-inner{
+            max-height: 600px;
+            .carousel-item{
+                max-height: 100% !important;
+                .carousel-caption{
+                    background: rgba($color: #000000, $alpha: 0.4);
+                    float: left;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    h3{
+                        font-family: "RobotoCondensed-Bold";
+                        padding-bottom: 10px;
+                        position: relative;
+                        text-align: left;
+                        font-size: 35px;
+                        margin-top: 45%;
+                        &::after{
+                            left: 0;
+                            bottom: 0;
+                            float: left;
+                            content: '';
+                            width: 30%;
+                            height: 5px;
+                            background: $main;
+                            position: absolute;
+                        }
+                    }
+                    p{
+                        font-family: "RobotoCondensed";
+                        text-align: left;
+                        font-size: 22px;
+                    }
+                    button{
+                        float: left;
+                        border: none;
+                        color: $white;
+                        font-size: 20px;
+                        background: $main;
+                        padding: 5px 25px;
+                        border-radius: 25px;
+                        box-shadow: 10px 10px 10px rgba($color: #000000, $alpha: 0.5);
+                        font-family: "RobotoCondensed";
+                    }
+                }
+            }
+        }
+    }
+}
+
+#birth{
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    background: $white;
+    .feature{
+        float: left;
+        width: 100%;
+        padding: 30px;
+        position: relative;
+        &::before{
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background: $main;
+            position: absolute;
+        }
+        &::after{
+            right: 0;
+            bottom: 0;
+            content: "";
+            width: 100px;
+            height: 100px;
+            background: $main;
+            position: absolute;
+        }
+        img{
+            box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.5);
+            position: relative;
+            z-index: 999;
+        }
+    }
+    h3{
+        font-family: "RobotoCondensed-Bold";
+        padding-bottom: 10px;
+        position: relative;
+        text-align: left;
+        margin-top: 30px;
+        font-size: 35px;
+        float: left;
+        width: 100%;
+        &::after{
+            left: 0;
+            bottom: 0;
+            float: left;
+            content: '';
+            width: 26%;
+            height: 5px;
+            background: $main;
+            position: absolute;
+        }
+    }
+    p{
+        font-family: "RobotoCondensed";
+        text-align: left;
+        font-size: 22px;
+    }
+    .challenge{
+        float: left;
+        width: 100%;
+        padding: 20px;
+        h5{
+            float: left;
+            width: 100%;
+            text-align: center;
+            font-family: "RobotoCondensed-Bold";
+        }
+        span{
+            font-family: "RobotoCondensed";
+            text-align: center;
+            font-size: 16px;
+            float: left;
+            width: 100%;
+        }
+    }
+}
+
+#donate{
+    .intro{
+        background: $main_light;
+        float: left;
+        width: 100%;
+        h2{
+            font-family: "RobotoCondensed-Bold";
+            padding-bottom: 10px;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 35px;
+            padding: 5px 0;
+            color: $white;
+            float: left;
+            width: 100%;
+        }
+        p{
+            font-family: "RobotoCondensed";
+            margin-bottom: 90px;
+            text-align: center;
+            font-size: 18px;
+            color: $white;
+        }
+    }
+
+    .mercadopago{
+        float: left;
+        width: 100%;
+        margin-top: -70px;
+        .box{
+            float: left;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background: $white;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.5);
+            h3{
+                font-family: "RobotoCondensed-Bold";
+                text-align: center;
+                padding: 0 0 10px;
+                font-size: 25px;
+                color: $main;
+                float: left;
+                width: 100%;
+            }
+            button{
+                border: none;
+                color: $white;
+                margin: 0 5px;
+                font-size: 18px;
+                background: $main;
+                padding: 10px 20px;
+                border-radius: 25px;
+                font-family: "RobotoCondensed";
+                &.active{
+                    background: $alternative;
+                }
+            }
+            input{
+                width: 70%;
+                color: $white;
+                font-size: 18px;
+                margin: 15px 0 0;
+                padding: 10px 20px;
+                border-radius: 25px;
+                border: 1px solid $grey_light;
+                font-family: "RobotoCondensed";
+                &.active{
+                    background: $alternative;
+                }
+                &.go{
+                    border: 1px solid $alternative;
+                }
+            }
+            span{
+                font-family: "RobotoCondensed";
+                margin: 20px 0 5px;
+                text-align: center;
+                font-size: 16px;
+                float: left;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#news{
+    float: left;
+    width: 100%;
+    margin: 40px 0;
+    padding: 20px 0 0;
+    background: $grey_background;
+    h2{
+        font-family: "RobotoCondensed-Bold";
+        text-align: center;
+        font-size: 35px;
+        color: $main;
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    p{
+        font-family: "RobotoCondensed";
+        text-align: center;
+        margin: 0 0 20px;
+        font-size: 16px;
+        float: left;
+        width: 100%;
+    }
+    .item{
+        float: left;
+        width: 100%;
+        background: $white;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.1);
+        .img{
+            float: left;
+            width: 100%;
+            height: 180px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px 5px 0 0;
+        }
+        span{
+            font-family: "RobotoCondensed";
+            color: $grey_light;
+            padding: 5px 10px;
+            font-size: 14px;
+            float: left;
+            width: 100%;
+            margin: 0;
+        }
+        h3{
+            font-family: "RobotoCondensed-Bold";
+            padding: 5px 10px;
+            text-align: left;
+            font-size: 18px;
+            color: $main;
+            float: left;
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+#sponsors{
+    float: left;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px 0 0;
+    background: $white;
+    h2{
+        font-family: "RobotoCondensed-Bold";
+        text-align: center;
+        font-size: 35px;
+        color: $main;
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    p{
+        font-family: "RobotoCondensed";
+        text-align: center;
+        margin: 0 0 40px;
+        font-size: 16px;
+        float: left;
+        width: 100%;
+    }
+    img {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        &:hover{
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+    }
+}
+
+
+footer{
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0 0;
+    background: $main;
+    h2{
+        font-family: "RobotoCondensed-Bold";
+        text-align: left;
+        margin: 0 0 10px;
+        font-size: 22px;
+        color: $white;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    p{
+        font-family: "RobotoCondensed";
+        text-align: center;
+        margin: 0 0 40px;
+        font-size: 16px;
+        float: left;
+        width: 100%;
+    }
+    .contact{
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        span{
+            float: left;
+            width: 50px;
+            height: 50px;
+            color: $white;
+            font-size: 22px;
+            text-align: center;
+            border-radius: 50%;
+            padding: 10px 12px;
+            background: $alternative;
+        }
+        h3{
+            float: left;
+            color: $white;
+            font-size: 16px;
+            margin-left: 10px;
+            width: calc(100% - 60px);
+            font-family: "RobotoCondensed";
+        }
+    }
+}

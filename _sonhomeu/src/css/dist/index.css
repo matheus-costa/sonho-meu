@@ -1,0 +1,436 @@
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  src: url("../../../libraries/RobotoCondensed/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../../../libraries/RobotoCondensed/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+#topHeader {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  background: #02673E;
+}
+#topHeader h5 {
+  float: left;
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 3px;
+  font-family: "RobotoCondensed";
+}
+#topHeader h5 i {
+  float: left;
+  font-size: 18px;
+  margin-top: 2px;
+}
+#topHeader h5 span {
+  float: left;
+  margin-left: 5px;
+}
+#topHeader h5:last-child {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+}
+#topHeader h5:last-child i {
+  margin-top: 1px;
+}
+#topHeader a {
+  color: #FFF;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+header {
+  float: left;
+  width: 100%;
+  font-family: "RobotoCondensed";
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+header .bg-light {
+  background-color: #FFF !important;
+}
+header .bg-light .navbar-collapse {
+  padding-left: 20px;
+}
+header .bg-light button.donate {
+  float: left;
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  padding: 7px 25px;
+  border-radius: 25px;
+  background: #EFAB04;
+}
+
+#slideBackground {
+  float: left;
+  width: 100%;
+}
+#slideBackground #mainSlide {
+  float: left;
+  width: 100%;
+}
+#slideBackground #mainSlide .carousel-inner {
+  max-height: 600px;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item {
+  max-height: 100% !important;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item .carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  float: left;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item .carousel-caption h3 {
+  font-family: "RobotoCondensed-Bold";
+  padding-bottom: 10px;
+  position: relative;
+  text-align: left;
+  font-size: 35px;
+  margin-top: 45%;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item .carousel-caption h3::after {
+  left: 0;
+  bottom: 0;
+  float: left;
+  content: "";
+  width: 30%;
+  height: 5px;
+  background: #02673E;
+  position: absolute;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item .carousel-caption p {
+  font-family: "RobotoCondensed";
+  text-align: left;
+  font-size: 22px;
+}
+#slideBackground #mainSlide .carousel-inner .carousel-item .carousel-caption button {
+  float: left;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  background: #02673E;
+  padding: 5px 25px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  font-family: "RobotoCondensed";
+}
+
+#birth {
+  float: left;
+  width: 100%;
+  padding: 40px 0;
+  background: #FFF;
+}
+#birth .feature {
+  float: left;
+  width: 100%;
+  padding: 30px;
+  position: relative;
+}
+#birth .feature::before {
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #02673E;
+  position: absolute;
+}
+#birth .feature::after {
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #02673E;
+  position: absolute;
+}
+#birth .feature img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 999;
+}
+#birth h3 {
+  font-family: "RobotoCondensed-Bold";
+  padding-bottom: 10px;
+  position: relative;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 35px;
+  float: left;
+  width: 100%;
+}
+#birth h3::after {
+  left: 0;
+  bottom: 0;
+  float: left;
+  content: "";
+  width: 26%;
+  height: 5px;
+  background: #02673E;
+  position: absolute;
+}
+#birth p {
+  font-family: "RobotoCondensed";
+  text-align: left;
+  font-size: 22px;
+}
+#birth .challenge {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+#birth .challenge h5 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: "RobotoCondensed-Bold";
+}
+#birth .challenge span {
+  font-family: "RobotoCondensed";
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+}
+
+#donate .intro {
+  background: #027F4B;
+  float: left;
+  width: 100%;
+}
+#donate .intro h2 {
+  font-family: "RobotoCondensed-Bold";
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 35px;
+  padding: 5px 0;
+  color: #FFF;
+  float: left;
+  width: 100%;
+}
+#donate .intro p {
+  font-family: "RobotoCondensed";
+  margin-bottom: 90px;
+  text-align: center;
+  font-size: 18px;
+  color: #FFF;
+}
+#donate .mercadopago {
+  float: left;
+  width: 100%;
+  margin-top: -70px;
+}
+#donate .mercadopago .box {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+#donate .mercadopago .box h3 {
+  font-family: "RobotoCondensed-Bold";
+  text-align: center;
+  padding: 0 0 10px;
+  font-size: 25px;
+  color: #02673E;
+  float: left;
+  width: 100%;
+}
+#donate .mercadopago .box button {
+  border: none;
+  color: #FFF;
+  margin: 0 5px;
+  font-size: 18px;
+  background: #02673E;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: "RobotoCondensed";
+}
+#donate .mercadopago .box button.active {
+  background: #EFAB04;
+}
+#donate .mercadopago .box input {
+  width: 70%;
+  color: #FFF;
+  font-size: 18px;
+  margin: 15px 0 0;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #999;
+  font-family: "RobotoCondensed";
+}
+#donate .mercadopago .box input.active {
+  background: #EFAB04;
+}
+#donate .mercadopago .box input.go {
+  border: 1px solid #EFAB04;
+}
+#donate .mercadopago .box span {
+  font-family: "RobotoCondensed";
+  margin: 20px 0 5px;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+}
+
+#news {
+  float: left;
+  width: 100%;
+  margin: 40px 0;
+  padding: 20px 0 0;
+  background: #F4F4F4;
+}
+#news h2 {
+  font-family: "RobotoCondensed-Bold";
+  text-align: center;
+  font-size: 35px;
+  color: #02673E;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#news p {
+  font-family: "RobotoCondensed";
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+}
+#news .item {
+  float: left;
+  width: 100%;
+  background: #FFF;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+#news .item .img {
+  float: left;
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px 5px 0 0;
+}
+#news .item span {
+  font-family: "RobotoCondensed";
+  color: #999;
+  padding: 5px 10px;
+  font-size: 14px;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+#news .item h3 {
+  font-family: "RobotoCondensed-Bold";
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 18px;
+  color: #02673E;
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+#sponsors {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 0 0;
+  background: #FFF;
+}
+#sponsors h2 {
+  font-family: "RobotoCondensed-Bold";
+  text-align: center;
+  font-size: 35px;
+  color: #02673E;
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#sponsors p {
+  font-family: "RobotoCondensed";
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+}
+#sponsors img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+#sponsors img:hover {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+footer {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0 0;
+  background: #02673E;
+}
+footer h2 {
+  font-family: "RobotoCondensed-Bold";
+  text-align: left;
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #FFF;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+footer p {
+  font-family: "RobotoCondensed";
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+}
+footer .contact {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+footer .contact span {
+  float: left;
+  width: 50px;
+  height: 50px;
+  color: #FFF;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 12px;
+  background: #EFAB04;
+}
+footer .contact h3 {
+  float: left;
+  color: #FFF;
+  font-size: 16px;
+  margin-left: 10px;
+  width: calc(100% - 60px);
+  font-family: "RobotoCondensed";
+}
